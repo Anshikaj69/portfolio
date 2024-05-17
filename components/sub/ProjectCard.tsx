@@ -10,7 +10,7 @@ interface Props {
 
 const ProjectCard = ({ link, src, title, description }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[30] w-[33%]">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[30] md:w-[33%] ">
      <a href={link}
      target="_blank"
      className="cursor-pointer">
