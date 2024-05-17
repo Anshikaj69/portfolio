@@ -17,7 +17,8 @@ const Projects = () => {
                     link="https://ai-mern-app.vercel.app/"
                     src="/ai_mern.png"
                     title="AI Powered Image Generation"
-                    description= "AI Image Generator web application to generate custom images from text prompts. Integrated StabilityAI, implemented community sharing, and download functionalities, enhancing user engagement and creativity."
+                    description= "Developed an AI Image Generator web application using React, Tailwind CSS, Node.js, Express, MongoDB, and Cloudinary, enabling users to generate custom images from text prompts.
+                    Integrated advanced AI APIs for image generation, implemented community sharing, and download functionalities, enhancing user engagement and creativity."
                 />
                 <ProjectCard
                     link="https://crowdfunding-dapp-drab.vercel.app/"
@@ -47,10 +48,12 @@ const Projects = () => {
                     "
                 />
                 <ProjectCard
-                    link="https://jobs-in-japan.vercel.app/"
-                    src="/foundit.png"
-                    title="Figma to Code"
-                    description="Pixel perfect translation of figma design into code."
+                    link="https://github.com/Anshikaj69/Whatsapp_Cloud_API/tree/master"
+                    src="/cloud_api.jpg"
+                    title="Cloud API Chat Application"
+                    description="MERN Stack Chat Application using Whatsapp Cloud API. 
+                    Implemented Real time Messaging using Socket.io and Webhooks.
+                    Ability to Send and receive Media Files."
                 />
                 <ProjectCard
                     link="https://task-manaement-application.netlify.app/"
@@ -59,6 +62,24 @@ const Projects = () => {
                     description="Presenting my skills effectively by highlighting expertise in frontend development, Javascript, Bootstrap and
                     local storage."
                 />
+            </div>
+
+            <div className="w-full flex flex-col md:flex-row gap-10 px-10 ">
+                <ProjectCard
+                    link="https://jobs-in-japan.vercel.app/"
+                    src="/foundit.png"
+                    title="Figma to Code"
+                    description="Pixel perfect translation of figma design into code."
+                />
+                <ProjectCard
+                    link="https://github.com/Anshikaj69/Contact_Manager_Backend"
+                    src="/contact.png"
+                    title="Contact Manager Backend"
+                    description="Securely manage contacts with this Node.js and Express.js backend. Featuring user registration, verification, password hashing, JWT authentication, and MongoDB storage, it ensures data integrity and confidentiality via protected routes.
+                    "
+                />
+                
+
             </div>
             </div>
         </div>
