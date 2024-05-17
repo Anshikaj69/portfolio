@@ -17,8 +17,7 @@ const Projects = () => {
                     link="https://ai-mern-app.vercel.app/"
                     src="/ai_mern.png"
                     title="AI Powered Image Generation"
-                    description= "Developed an AI Image Generator web application using React, Tailwind CSS, Node.js, Express, MongoDB, and Cloudinary, enabling users to generate custom images from text prompts.
-                    Integrated advanced AI APIs for image generation, implemented community sharing, and download functionalities, enhancing user engagement and creativity."
+                    description= "Developed an AI Image Generator web application using React, Tailwind CSS, Node.js, Express, MongoDB, and Cloudinary, enabling users to generate custom images from text prompts.Integrated advanced AI APIs for image generation, implemented community sharing, and download functionalities, enhancing user engagement and creativity."
                 />
                 <ProjectCard
                     link="https://crowdfunding-dapp-drab.vercel.app/"
